@@ -61,8 +61,8 @@ const Normal: VFC<{ appid: number }> = ({ appid }) => {
     <Focusable style={{ display: "flex", flexDirection: "column" }}>
 
       <ToggleField
-        label="Enable Cheat"
-        description='Select the cheat or trainer exe file from storage'
+        label="启动修改器"
+        description='选择修改器路径'
         icon={<FaGamepad />}
         bottomSeparator={"none"}
         checked={showCheat}
