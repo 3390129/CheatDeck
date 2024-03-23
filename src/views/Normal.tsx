@@ -37,7 +37,7 @@ const Normal: VFC<{ appid: number }> = ({ appid }) => {
 
   const handleBrowse = async () => {
     const cheatDir = options.getFieldValue('PRESSURE_VESSEL_FILESYSTEMS_RW');
-    const defaultDir = cheatDir ? cheatDir : "/home/deck";
+    const defaultDir = cheatDir ? cheatDir : "/home/deck/Documents/Fengling";
     const filePickerRes = await Backend.openFilePicker(defaultDir, true, ["exe", "EXE"]);
     const cheatPath = filePickerRes.path;
     const newOptions = new Options(options.getOptionsString());
