@@ -118,7 +118,7 @@ const Normal: VFC<{ appid: number }> = ({ appid }) => {
 
       <ToggleField
         label="Language"
-        description="Try to specify the game language"
+        description="指定游戏语言"
         icon={<FaLanguage />}
         checked={showLang}
         bottomSeparator="none"
@@ -132,7 +132,7 @@ const Normal: VFC<{ appid: number }> = ({ appid }) => {
         }}
       />
       {showLang && (<Field
-        label="Language code"
+        label="设置语言"
         padding="none"
         bottomSeparator="thick"
       >
@@ -184,7 +184,7 @@ const Normal: VFC<{ appid: number }> = ({ appid }) => {
           width: "80%"
         }}
       >
-        Save Settings
+        保存设置
       </DialogButton>
     </Focusable>
   )
